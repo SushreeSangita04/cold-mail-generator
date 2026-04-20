@@ -5,6 +5,7 @@ langchain-core
 langchain-groq
 beautifulsoup4
 pandas
+numpy==1.26.4
 python-dotenv
 lxml
 tiktoken
