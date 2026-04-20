@@ -22,7 +22,9 @@ chromadb>=0.5.0
 lxml
 tiktoken
 numpy>=2.0
-protobuf>=4.25
+protobuf==3.20.3
+opentelemetry-api==1.22.0
+opentelemetry-sdk==1.22.0
 requests==2.31.0
 urllib3==1.26.18
 charset-normalizer==3.3.2
