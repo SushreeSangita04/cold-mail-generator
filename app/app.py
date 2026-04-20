@@ -8,7 +8,7 @@ from utils import clean_text
 
 def create_streamlit_app(llm, portfolio, clean_text):
     st.title("✉️ Cold Mail Generator")
-    url_input = st.text_input("Enter a URL:", value="https://resources.workable.com/ai-engineer-job-description")
+    url_input = st.text_input("Enter a URL & I'll generate a cold mail within 2 minutes:", value="https://resources.workable.com/ai-engineer-job-description")
     submit_button = st.button("Submit")
 
     if submit_button:
