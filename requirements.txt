@@ -1,12 +1,27 @@
+# streamlit
+# langchain
+# langchain-community
+# langchain-core
+# langchain-groq
+# beautifulsoup4
+# pandas
+# python-dotenv
+# chromadb
+# lxml
+# tiktoken
+# numpy
 streamlit
-langchain
-langchain-community
-langchain-core
+langchain==0.1.16
+langchain-community==0.0.32
+langchain-core==0.1.42
 langchain-groq
 beautifulsoup4
 pandas
 python-dotenv
-chromadb
+chromadb==0.4.24
 lxml
 tiktoken
-numpy
+numpy==1.26.4
+protobuf==3.20.3
+opentelemetry-api==1.22.0
+opentelemetry-sdk==1.22.0
